@@ -1,0 +1,137 @@
+body {
+    background-color: white;
+    font-size: 15px;
+}
+h2 {
+    font-family: 'Big Shoulders Display', cursive;
+    text-transform: uppercase;
+    font-size: 36px;
+    color: hsl(0, 0%, 95%);
+}
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 13px;
+    line-break: 15px;
+    line-height: 22px;
+}
+#card {
+    display: flex;
+    margin: 155px auto;
+    width: 830px;
+    height: 450px;
+    background-color: #fff;
+    border-radius: 7px;
+    transition: all 500ms ease-out;
+
+}
+#content-1{
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 7px 0px 0px 7px;
+    padding: 45px 60px 25px 40px;
+    color: hsl(31, 77%, 52%);
+    position: relative;
+}
+#content-2{
+    background-color: hsl(184, 100%, 22%);
+    padding: 45px 60px 25px 40px;
+    color: hsl(184, 100%, 22%);
+    position: relative;
+}
+#content-3{
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0px 7px 7px 0px ;
+    padding: 45px 60px 25px 40px;
+    color: hsl(179, 100%, 13%);
+    position: relative;
+}
+#button-1, #button-2, #button-3 {
+    width: 135px;
+    height: 45px;
+    border-radius: 22px;
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 15px;
+    color: inherit;
+    bottom: 43px;
+    position: absolute;
+    left: 40px;
+    cursor: pointer;
+}
+#button-1:hover, #button-2:hover, #button-3:hover {
+    color:hsl(0, 0%, 95%);
+    background-color: transparent;
+    border: solid 2px hsl(0, 0%, 95%);
+}
+
+.attribution {
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 20px;
+    color: hsl(179, 100%, 13%);
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: hsl(31, 77%, 52%);
+}
+a:hover {
+    color: #b66d1e;
+}
+
+@media (max-width: 906px) {
+    
+    #card {
+        display: flex;
+        flex-direction: column;
+        margin: 89px auto;
+        width: 327px;
+        height: 100%;
+        background-color: #fff;
+        border-radius: 7px;
+        transition: all 700ms cubic-bezier(.29, 1.01, 1, -0.68);
+    }
+    #content-1{
+        background-color: hsl(31, 77%, 52%);
+        border-radius: 7px 7px 0px 0px;
+        padding: 45px 60px 25px 40px;
+        color: hsl(31, 77%, 52%);
+        position: relative;
+        height: 345px;
+    }
+    #content-2{
+        background-color: hsl(184, 100%, 22%);
+        padding: 45px 60px 25px 40px;
+        color: hsl(184, 100%, 22%);
+        position: relative;
+        height: 345px;
+    }
+    #content-3{
+        background-color: hsl(179, 100%, 13%);
+        border-radius: 0px 0px 7px 7px ;
+        padding: 45px 60px 25px 40px;
+        color: hsl(179, 100%, 13%);
+        position: relative;
+        height: 345px;
+    }
+    #button-1, #button-2, #button-3 {
+        width: 135px;
+        height: 45px;
+        border-radius: 22px;
+        background-color: hsl(0, 0%, 95%);
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        color: inherit;
+        bottom: 43px;
+        position: absolute;
+        left: 40px;
+        cursor: pointer;
+    }
+}
