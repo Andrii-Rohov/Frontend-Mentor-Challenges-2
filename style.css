@@ -5,21 +5,20 @@ body {
 h2 {
     font-family: 'Big Shoulders Display', cursive;
     text-transform: uppercase;
-    font-size: 36px;
+    font-size: 40px;
     color: hsl(0, 0%, 95%);
 }
 p {
     font-family: 'Lexend Deca', sans-serif;
     color: hsla(0, 0%, 100%, 0.75);
-    font-size: 13px;
-    line-break: 15px;
-    line-height: 22px;
+    font-size: 15px;
+    line-height: 25px;
 }
 #card {
     display: flex;
-    margin: 155px auto;
-    width: 830px;
-    height: 450px;
+    margin: 175px auto;
+    width: 920px;
+    height: 500px;
     background-color: #fff;
     border-radius: 7px;
     transition: all 500ms ease-out;
@@ -28,27 +27,27 @@ p {
 #content-1{
     background-color: hsl(31, 77%, 52%);
     border-radius: 7px 0px 0px 7px;
-    padding: 45px 60px 25px 40px;
+    padding: 46px 60px 25px 48px;
     color: hsl(31, 77%, 52%);
     position: relative;
 }
 #content-2{
     background-color: hsl(184, 100%, 22%);
-    padding: 45px 60px 25px 40px;
+    padding: 46px 60px 25px 48px;
     color: hsl(184, 100%, 22%);
     position: relative;
 }
 #content-3{
     background-color: hsl(179, 100%, 13%);
     border-radius: 0px 7px 7px 0px ;
-    padding: 45px 60px 25px 40px;
+    padding: 48px 60px 25px 48px;
     color: hsl(179, 100%, 13%);
     position: relative;
 }
 #button-1, #button-2, #button-3 {
-    width: 135px;
-    height: 45px;
-    border-radius: 22px;
+    width: 145px;
+    height: 48px;
+    border-radius: 50px;
     background-color: hsl(0, 0%, 95%);
     border: none;
     text-align: center;
@@ -57,9 +56,9 @@ p {
     font-family: 'Lexend Deca', sans-serif;
     font-size: 15px;
     color: inherit;
-    bottom: 43px;
+    bottom: 48px;
     position: absolute;
-    left: 40px;
+    left: 46px;
     cursor: pointer;
 }
 #button-1:hover, #button-2:hover, #button-3:hover {
@@ -69,6 +68,7 @@ p {
 }
 
 .attribution {
+    display: block;
     font-family: 'Big Shoulders Display', cursive;
     font-size: 20px;
     color: hsl(179, 100%, 13%);
